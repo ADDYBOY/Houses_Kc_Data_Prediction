@@ -38,8 +38,8 @@ We have total 21613 historical data prices for houses in USA.
 18.)	long
 19.)	sqft_living15
 20.)	sqft_lot15
-# Dependent Variable
-Price
+# Dependent Variable - PRICE
+
 We have test data whose size is one-third of our training dataset.
 The dataset is uniform and consitent and the data have ratio scale of measurement.
 
