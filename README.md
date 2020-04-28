@@ -59,6 +59,27 @@ The dataset is uniform and consitent and the data have ratio scale of measuremen
 4. After that we observe that id and date column does not play a key role in price determination , so we need to drop these two columns.
 5. Now our data is clean and ready to be processed under Regression Model in Python.
 
+**Libraries Required :**
+- Sklearn 
+- Matplotlib
+- pandas
+- numpy
+- Seaborn
+- Collections
+
+ **Steps :**
+1. Importing relevant python Libraries
+2. Exploring the Dataset
+3. Exploratory Data Analysis
+> * Univariate Analysis
+4. Data Preprocessing
+5. Model Building
+> * Regression Model
+> * Backward Elimination Technique
+6. Validation
+> *Regression Matrix (p test-Significance Test)
+7. Conclusion
+
 # EDA (Exploratory Data Analysis):
 For EDA , Seaborn Data Visualization Library is used which is based on Matplotlib . Several distributions and plots have been depicted to understand the pattern of housing industry.
 We have used scikit-learn library for running regression model.
