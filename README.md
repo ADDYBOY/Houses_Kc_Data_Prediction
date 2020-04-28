@@ -1,11 +1,13 @@
 # Houses_Kc_Price_Prediction
-### Problem Statement:
+### PROBLEM STATEMENTT:
 House Data Price Prediction Using Multiple Regression and Backward Elimination Technique
 ### DESCRIPTION:
 Here in this business problem, we want to find out the prices of Houses in King County,USA. Here we are given many parameters which directly influence the prices of the houses. We need to find the best quoted value for the price considering all the dependent parameters and we need to observe which parameters plays a key role in price determination of the houses.
 
 **Since this is a problem of PREDICTION ANALYSIS we will use MULTIPLE REGRESSION ANALYSIS WITH BACKWARD ELIMINATION TECHNIQUE.**
+
 **What is Multiple Regression and Backward Elimination Technique:**
+
 MULTIPLE REGRESSION: Multiple regression is an extension of simple linear regression. It is used when we want to predict the value of an dependent variable based on the value of two or more other independent variables. The variable we want to predict is called the dependent variable (or sometimes, the outcome, target or criterion variable).
 BACKWARD ELIMINATION TECHNIQUE:Backward elimination is a feature selection technique while building a machine learning model. It is used to remove those features(independent variables) that do not have a significant effect on the dependent variable or prediction of output.
 # Steps involved in backward Elimination Technique:
