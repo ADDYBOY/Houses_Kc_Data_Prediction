@@ -1,7 +1,8 @@
 # Houses_Kc_Price_Prediction
-### PROBLEM STATEMENTT:
+
+### Problem Statement:
 House Data Price Prediction Using Multiple Regression and Backward Elimination Technique
-### DESCRIPTION:
+### Description:
 Here in this business problem, we want to find out the prices of Houses in King County,USA. Here we are given many parameters which directly influence the prices of the houses. We need to find the best quoted value for the price considering all the dependent parameters and we need to observe which parameters plays a key role in price determination of the houses.
 
 **Since this is a problem of PREDICTION ANALYSIS we will use MULTIPLE REGRESSION ANALYSIS WITH BACKWARD ELIMINATION TECHNIQUE.**
@@ -24,8 +25,8 @@ BACKWARD ELIMINATION TECHNIQUE:Backward elimination is a feature selection techn
 The kc_house_data excel file contains our complete dataset. This data is colleceted through surveys and by estimation of analysts.
 We have total 21613 historical data prices for houses in USA.
 
- **Independent Variables/Features:**
-1.	id
+ **Independent Variables/Features: All are numerical Data**
+1.	id   
 2.	date
 3.	bedrooms
 4.	bathrooms
@@ -62,6 +63,15 @@ The dataset is uniform and consitent and the data have ratio scale of measuremen
 For EDA , Seaborn Data Visualization Library is used which is based on Matplotlib . Several distributions and plots have been depicted to understand the pattern of housing industry.
 We have used scikit-learn library for running regression model.
 And Finally we have used OLS (Ordinary Least Square Method) for our regression Model. For this we have used Statsmodels Module, which is built on on top of numerical library Numpy. We get a Final Model after running a regression Model with an excellent R squared value of 0.905.
+
 **Our Model is consistent with an excellent R squared value of 0.905. This clearly shows that most of the variation in the prices are very well expalined by these independent features. We have retained all those features whose p value < 0.05.**
+
+# Model Building:
+* Split dependent and independent features.
+* Split the data into train and test in 67 : 33 ratio.
+* Fit Multiple Regression and Backward Elimination Technique on training set, predict and check accuracy.
+
+# Conclusion:
+Our Model is consistent with an excellent R squared value of 0.905. This clearly shows that most of the variation in the prices are very well expalined by these independent features. We have retained all those features whose p value < 0.05.
 
 
