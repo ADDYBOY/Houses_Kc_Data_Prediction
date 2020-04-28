@@ -1,8 +1,8 @@
 # Houses_Kc_Price_Prediction
 
-### Problem Statement:
+# Problem Statement:
 House Data Price Prediction Using Multiple Regression and Backward Elimination Technique
-### Description:
+# Description:
 Here in this business problem, we want to find out the prices of Houses in King County,USA. Here we are given many parameters which directly influence the prices of the houses. We need to find the best quoted value for the price considering all the dependent parameters and we need to observe which parameters plays a key role in price determination of the houses.
 
 **Since this is a problem of PREDICTION ANALYSIS we will use MULTIPLE REGRESSION ANALYSIS WITH BACKWARD ELIMINATION TECHNIQUE.**
@@ -70,6 +70,18 @@ And Finally we have used OLS (Ordinary Least Square Method) for our regression M
 * Split dependent and independent features.
 * Split the data into train and test in 67 : 33 ratio.
 * Fit Multiple Regression and Backward Elimination Technique on training set, predict and check accuracy.
+
+
+**Install**
+- Supported Python version
+    - Python version used in this Project : 3.5+
+
+**Run**
+    - To run this project use - Anaconda, which provides support for running .ipynb files (Jupyter Notebook). 
+    
+    - After making sure you have that, you can run from a terminal or cmd next lines :
+    - ipython notebook kc_housing_price.ipynb
+   
 
 # Conclusion:
 Our Model is consistent with an excellent R squared value of 0.905. This clearly shows that most of the variation in the prices are very well expalined by these independent features. We have retained all those features whose p value < 0.05.
